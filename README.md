@@ -1,12 +1,75 @@
-# React + Vite
+# React Router Site 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project demonstrating **React Router v6** with nested routes, dynamic parameters, and a layout component (Header + Footer).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Installation & Setup
 
-## Expanding the ESLint configuration
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/react-router-site.git
+   cd react-router-site
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the dev server**
+   ```bash
+   npm run dev
+   ```
+
+4. Open in browser:
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+## 🛠 Features
+
+- ✅ **React Router v6** with `createBrowserRouter`  
+- ✅ **Layout with Header & Footer**  
+- ✅ **Nested Routes & Outlet**  
+- ✅ **Dynamic Routing** (`/user/:userid`)  
+- ✅ **Data Loader Example** (GitHub API in `Github.jsx`)  
+- ✅ **Fallback 404 Route**  
+
+---
+
+## 📌 Routes
+
+| Path           | Component     | Description                          |
+|----------------|--------------|--------------------------------------|
+| `/`            | `Home`       | Homepage                             |
+| `/about`       | `About`      | About page                           |
+| `/contact`     | `Contact`    | Contact page                         |
+| `/user/:userid`| `User`       | Dynamic user route                   |
+| `/github`      | `Github`     | Fetches profile using loader (API)   |
+| `*`            | 404 Fallback | Not Found page                       |
+
+---
+
+## 🔗 GitHub API Loader
+
+The `Github` component uses a **loader function** (`githubInfoLoader`) to fetch data from the GitHub REST API before rendering:
+
+```jsx
+export const githubInfoLoader = async () => {
+  const res = await fetch("https://api.github.com/users/octocat");
+  return res.json();
+};
+```
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.  
+Feel free to use and modify for your learning.  
+
+---
+
+👨‍💻 **Author:** [Your Name](https://github.com/yourusername)  
