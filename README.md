@@ -1,8 +1,22 @@
 # React Router Site 🚀
 
-A simple React project demonstrating **React Router v6** with nested routes, dynamic parameters, and a layout component (Header + Footer).
+A modern **React Router v6** demo project showcasing client-side routing, nested layouts,  
+dynamic user pages, and data loading with the GitHub API.  
+
+This project is built with **React + Vite** and demonstrates how to structure routes,  
+handle layouts, fetch external data, and manage a smooth navigation flow in a React app.
 
 ---
+
+
+## 🎥 Demo
+
+<p align="center">
+<img src="ezgif.com-animated-gif-maker.gif" width="800" alt="Demo"/>
+</p>
+
+---
+
 
 ## ⚙️ Installation & Setup
 
