@@ -80,10 +80,15 @@ export const githubInfoLoader = async () => {
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License**.  
-Feel free to use and modify for your learning.  
+## 📜 License & Copyright
+
+This project is licensed under the terms of the **MIT License**.  
+© 2025 Anuj Singal. All rights reserved.
+
+--- 
+
+## 👨‍💻 Author
+
+[![Anuj Singal](https://img.shields.io/badge/Anuj%20Singal-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anuj-singal)
 
 ---
-
-👨‍💻 **Author:** [Your Name](https://github.com/yourusername)  
