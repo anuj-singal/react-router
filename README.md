@@ -22,8 +22,8 @@ handle layouts, fetch external data, and manage a smooth navigation flow in a Re
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/yourusername/react-router-site.git
-   cd react-router-site
+   git clone https://github.com/anuj-singal/react-router.git
+   cd react-router
    ```
 
 2. **Install dependencies**
